@@ -58,6 +58,9 @@ Simple POSIX inspired shell for Kubernetes operations.
 - shell
 
   [ ] shell context for state
+  
     - CWD is managed and guarded by shell
+
   [ ] each command is given a shell handle
+  
   [ ] shell holds client and can be constructed with a mock
