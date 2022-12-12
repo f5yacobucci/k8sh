@@ -10,7 +10,9 @@ Simple POSIX inspired shell for Kubernetes operations.
 - expansion and parsing
 
   [ ] variable expansion within quotes
+  
   [ ] variable assignment
+  
   [ ] read only or internal symbols (can't be set)
   
     - this will likely be replaced by a shell context
@@ -18,7 +20,9 @@ Simple POSIX inspired shell for Kubernetes operations.
   
     - delay until a better concept of $HOME exists
   [ ] posix parameter expansion
+  
   [ ] functions
+  
   [ ] command argument parser
 
 - builtins
