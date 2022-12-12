@@ -8,11 +8,14 @@ Simple POSIX inspired shell for Kubernetes operations.
 
 ## TODO:
 - expansion and parsing
+
   [ ] variable expansion within quotes
   [ ] variable assignment
   [ ] read only or internal symbols (can't be set)
+  
     - this will likely be replaced by a shell context
   [ ] tilde expansion
+  
     - delay until a better concept of $HOME exists
   [ ] posix parameter expansion
   [ ] functions
